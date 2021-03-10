@@ -25,7 +25,7 @@ SECRET_KEY = 'mo$girhvtla2!ank4h&@wa(=u7id!wkj&+due#!zh*!fs4_&m7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["eshat1.herokuapp.com","127.0.0.1"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'weatherapp',
+    'django-filter'
 ]
 
 MIDDLEWARE = [
@@ -121,6 +122,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
- 
+
  
 STATIC_ROOT= BASE_DIR / 'staticfiles'
