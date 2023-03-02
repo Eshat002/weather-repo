@@ -9,9 +9,9 @@
  
 </head>
 
-
+<body style="background-color: rgb(120, 255, 188);">
  
-  <div class="container">
+  <div  class="container mt-5 ">
     <div class="row align-items-start">
       <div class="col">
          <h1>Type the place you wanna know</h1>
@@ -21,7 +21,7 @@
                 <label for="disabledTextInput" class="form-label"> City: </label>
                <input  class="form-control" type="text" name="city">{% csrf_token %}
             </div>
-            <button class="btn btn-primary" type="submit">See</button>
+            <button class="btn btn-warning" type="submit">See</button>
         </fieldset>
           </form>
         <div>
@@ -35,3 +35,6 @@
         
         </div>
       </div>
+
+
+    </body>
