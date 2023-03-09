@@ -25,7 +25,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['earth13.herokuapp.com','127.0.0.1','test-kmx5.onrender.com']
+ALLOWED_HOSTS = ['earth13.herokuapp.com','127.0.0.1','weather-app-1.onrender.com']
 
 
 # Application definition
