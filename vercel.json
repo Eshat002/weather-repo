@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "myweather/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "myweather/wsgi.py"
+      }
+    ]
+}
